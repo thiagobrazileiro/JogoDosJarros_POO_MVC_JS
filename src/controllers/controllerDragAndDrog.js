@@ -8,11 +8,11 @@ function allowDrop(ev){
 document.addEventListener("dragstart",function(event){
     
     jarroUsado = event.target.id;
-    //console.log(jarroUsado);
+    console.log('Jarro usado = ' + jarroUsado);
 
     document.addEventListener("drop",function(event){
         ferramentaUsada = event.target.id;
-        //console.log(ferramentaUsada);
+        console.log('Ferramenta usada = ' +ferramentaUsada);
 
         if(ferramentaUsada == 'Ralo'){
             if(jarroUsado == 'Jarro1'){
@@ -34,7 +34,25 @@ document.addEventListener("dragstart",function(event){
                 ferramentaUsada = "";
                 jarroUsado = "";
             }
+        }else if(ferramentaUsada == 'Jarro1'){
+          
+                console.log('JARRO2 JOGANDO AGUA NO JARRO1')
+                jarro2.transfereAgua(jarro1);
+                ferramentaUsada = "";
+                jarroUsado = "";
+            
+
+        }else if(ferramentaUsada == 'Jarro2'){
+
+                console.log('JARRO1 JOGANDO AGUA NO JARRO2')
+                jarro1.transfereAgua(jarro2);
+                ferramentaUsada = "";
+                jarroUsado = "";
+                
+          
         }
+
+       return false; 
     });
 
 });

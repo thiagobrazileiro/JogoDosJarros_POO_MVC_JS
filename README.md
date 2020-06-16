@@ -1,2 +1,28 @@
-# JogoDosJarros_POO_MVC_JS
-Jogo dos Jarros, feitos com Javascript durante live na twitch.tv/lampibrazil
+# JOGO DOS JARROS
+Jogo dos jarros feito em javascript, usando programação orientada a objetos e arquitetura de software MVC.
+
+**Objetivo**
+
+Fazer um jogo em live na plataforma da [twitchTv](https://www.twitch.tv/lampibrazil).
+
+**Justificativa**
+
+Este projeto tem como justificativa a necessidade de aprendizado e evolução na linguagem JavaScript.
+
+**Como usar ?**
+
+- Abrir o index e executar.
+
+**Autores**
+Foto | Nome | GitHub | Likedin | E-mail
+---- | ---- | ------ | ------- | ------
+<img src="Doc/ThiagoBrazileiro.jpg" width="100px"> | Thiago Brazileiro Martinez | [Thiagobrazileiro](https://github.com/thiagobrazileiro) | [Linkedin](https://www.linkedin.com/in/thiagobrazileiromartinez/) | brazileiro.thiago@gmail.com
+
+**Tecnologias**
+
+Linguagem:
+
+- JavaScript
+
+
+

@@ -1,4 +1,4 @@
 *{padding: 0; margin: 0; box-sizing: border-box;}
 
-.Envelope{display: flex;height: 500px; align-items: center;margin: 30px; width: 100%;}
-img{max-width: 150px;max-height: 150px;}
+.Envelope{display: flex;height: 500px; align-items: center;margin: 30px; width: 100%; justify-content: center;}
+img{max-width: 300px;max-height: 300px;}

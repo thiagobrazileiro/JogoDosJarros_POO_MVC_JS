@@ -3,7 +3,7 @@ var Torneira = function(){
 }
 
 Torneira.prototype.encher = function(jarro){
-    jarro.qntAtualAgua = jarro.qntMaxAgua;
+    jarro.setAguaAtual = jarro.getAguaMax;
 };
 
 var torneira = new Torneira();
