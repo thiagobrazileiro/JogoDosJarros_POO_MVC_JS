@@ -10,8 +10,9 @@ window.onload = setInterval(function(){
     //Aqui é a função que verifica se o player ganhou o jogo ou nao
     var quantidadeDesejada = 4;
     if(jarro2.getAguaAtual == quantidadeDesejada || jarro1.getAguaAtual == quantidadeDesejada){
-        document.getElementById("AAA").innerHTML = `Você ganhou o jogo`
         document.getElementById("ENVELOPE").style.display = 'none';
+        document.getElementById("Vitoria").style.display = 'flex';
+        document.getElementById("AAA").innerHTML = `Você ganhou o jogo`
     }
 
     
