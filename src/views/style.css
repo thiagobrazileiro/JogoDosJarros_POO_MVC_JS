@@ -3,4 +3,5 @@
 .Envelope{display: flex;height: 500px; align-items: center;margin: 30px; width: 100%; justify-content: center;}
 img{max-width: 300px;max-height: 300px;}
 
+.Explicacao{width: 100%;text-align: center;}
 .Vitoria{width: 100%; height: 500px; display: flex; justify-content: center; align-items: center;}
