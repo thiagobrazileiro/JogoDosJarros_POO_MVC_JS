@@ -13,18 +13,19 @@
 
 Emoji | Código | Tipo do commit
 ------------ | ------------- | -------------
-:tada: | `:tada:` | initial commit
-:art: | `:art:` | quando melhorar a estrutura/formato do código
-:racehorse: | `:racehorse:` | quando melhorar a performance
-:memo: | `:memo:` | quando escrever alguma documentação
-:bug: | `:bug:` | quando corrigir um bug
-:fire: | `:fire:` | quando remover código ou arquivos
-:lock: | `:lock:` | quando melhorar a segurança
-:poop: | `:poop:` | deprecated
-:construction: | `:construction:` | em construção
-:rocket: | `:rocket:` | nova feature
-:see_no_evil: | `:see_no_evil:` | gambiarra
-:gift: | `:gift:` | nova versão 
+:tada: | `:tada:` | Initial commit
+:art: | `:art:` | Quando melhorar a estrutura/formato do código
+:pencil2: | `:pencil2:` | Adiciona texto a aplicação.
+:racehorse: | `:racehorse:` | Quando melhorar a performance
+:memo: | `:memo:` | Quando escrever alguma documentação
+:bug: | `:bug:` | Quando corrigir um bug
+:fire: | `:fire:` | Quando remover código ou arquivos
+:lock: | `:lock:` | Quando melhorar a segurança
+:poop: | `:poop:` | Deprecated
+:construction: | `:construction:` | Em construção
+:rocket: | `:rocket:` | Nova feature
+:see_no_evil: | `:see_no_evil:` | Gambiarra
+:gift: | `:gift:` | Nova versão 
 
 ### Exemplo
 ```bash
