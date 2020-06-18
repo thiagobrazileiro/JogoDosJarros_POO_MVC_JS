@@ -2,13 +2,6 @@
 Jogo dos jarros feito em javascript, usando programação orientada a objetos e arquitetura de software MVC.
 
 
-![GitHub All Releases](https://img.shields.io/github/downloads/thiagobrazileiro/JogoDosJarros_POO_MVC_JS/total)
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/thiagobrazileiro/JogoDosJarros_POO_MVC_JS)
-![GitHub Forks](https://img.shields.io/github/forks/thiagobrazileiro/JogoDosJarros_POO_MVC_JS)
-![GitHub stars](https://img.shields.io/github/stars/thiagobrazileiro/JogoDosJarros_POO_MVC_JS)
-![GitHub License](https://img.shields.io/github/license/thiagobrazileiro/JogoDosJarros_POO_MVC_JS)
-
-
 **Objetivo**
 
 Fazer um jogo em live na plataforma da [twitchTv](https://www.twitch.tv/lampibrazil).
