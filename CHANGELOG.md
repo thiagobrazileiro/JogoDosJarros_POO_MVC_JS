@@ -6,12 +6,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 ### Added
-- Melhorar o visual e aumentar as informações para cada usuário.
+- Criar leveis diferentes e explicação antes de iniciar o jogo.
 
 
 
-## [0.1.0] - 2020-06-03
+## [0.1.0] - 2020-06-17
 ### Added
-- Jogo do Jarro completo.
+- Jogo do Jarro funcional no level 1.
 
 [Unreleased]:

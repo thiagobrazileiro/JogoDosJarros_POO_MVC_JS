@@ -1,6 +1,10 @@
 # JOGO DOS JARROS
 Jogo dos jarros feito em javascript, usando programação orientada a objetos e arquitetura de software MVC.
 
+[![NPM Version][npm-image]][npm-url]
+[![Build Status][travis-image]][travis-url]
+[![Downloads Stats][npm-downloads]][npm-url]
+
 **Objetivo**
 
 Fazer um jogo em live na plataforma da [twitchTv](https://www.twitch.tv/lampibrazil).
