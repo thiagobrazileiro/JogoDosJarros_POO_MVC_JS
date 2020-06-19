@@ -3,6 +3,7 @@ var Jarro = function(valor){
     this.qntMaxAgua = valor;
 }
 
+//A agua do jarro nao pode ultrapassar a quantidade maxima de agua que cabe nele.
 
 Jarro.prototype.transfereAgua = function(jarro){
     //verifica quanto de agua está sobrando no jarro que veio como parametro
@@ -23,14 +24,9 @@ Jarro.prototype.transfereAgua = function(jarro){
 
 
 
-// a agua do jarro nao pode ultrapassar a quantidade maxima de agua que cabe nele.
 
 
-
-
-
-
-//todos os atributos, precisam ter metodos get e set
+//Metodos get e set
 
 Jarro.prototype.__defineSetter__('setAguaAtual',function(numero){
     this.qntAtualAgua = numero;
@@ -44,8 +40,7 @@ Jarro.prototype.__defineGetter__('getAguaMax',function(){
     return this.qntMaxAgua;
 });
 
-var jarro1 = new Jarro(5);
-var jarro2 = new Jarro(3);
+
 
 
 // toda classe tem metodos SET e GET

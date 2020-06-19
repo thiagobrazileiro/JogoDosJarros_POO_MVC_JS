@@ -1,10 +1,16 @@
 *{padding: 0; margin: 0; box-sizing: border-box;}
 
-.Envelope{display: flex;height: 500px; align-items: center;margin: 30px; width: 100%; justify-content: center;}
+#Inicio{display: flex;width: 100%;}
+.LadoInicio{flex: 1;}
+.MeioInicio{flex: 1;}
+#Explicacao{margin: 20px 0 20px 0;}
+
+.Envelope{display: none;height: 500px; align-items: center;margin: 30px; width: 100%; justify-content: center;}
 img{max-width: 300px;max-height: 300px;}
 
-.Explicacao{width: 100%;text-align: center;}
+#Titulo{width: 100%;text-align: center; margin: 30px 0;}
 #Vitoria{width: 100%; height: 500px; display: none; justify-content: center; align-items: center; flex-direction: column;}
     #Vitoria div{margin: 15px;}
-.Btn{padding: 10px; background-color: blue; color: white; font-size: larger; border: 0; border-style: none; box-shadow: -3px 5px 5px #666666;}    
+.Btn{padding: 10px; background-color: blue; color: white; font-size: larger; border: 0; border-radius: 10px ; border-style: none; box-shadow: -3px 5px 5px #666666;}    
     .Btn:hover{background-color: rgb(0, 225, 255); color: black;}
+    
