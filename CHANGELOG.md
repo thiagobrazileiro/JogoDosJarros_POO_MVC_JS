@@ -6,8 +6,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 ### Added
-- Criar leveis diferentes e explicação antes de iniciar o jogo.
+- Melhorar layout.
 
+## [0.2.0] - 2020-06-19
+### Added
+- Jogo do Jarro funcional em todos os leveis.
+- Explicação no inicio do jogo.
 
 
 ## [0.1.0] - 2020-06-17
