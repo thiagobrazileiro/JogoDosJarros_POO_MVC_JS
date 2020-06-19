@@ -7,7 +7,34 @@
     <title>Jogo do Jarro</title>
 </head>
 <body id = "CORPO">
-    <h2 class="Explicacao">Para ganhar o jogo, um dos 2 Jarros precisa ter 4 litros de água.</h2>
+    <h2 id="Titulo">JOGO DOS JARROS, ESCOLHA UM LEVEL PARA INICIAR!!</h2>
+    <div id="Inicio">
+
+        <div class="LadoInicio"></div>  
+
+        <div class="MeioInicio">
+            <p id="Explicacao">
+                O jogo dos jarros consiste em 4 objetos: 2 jarros, 1 torneira e 1 ralo. 
+                Todos os leveis do jogo possuem estes objetos, porem cada level tem uma 
+                condição de vitória diferente, esta condição de vitoria é a quantidade 
+                de água em um dos jarros. Resumindo, é necessario manipular a agua contida 
+                em cada jarro para consegui ganhar o jogo ao atingir a condição de vitória.
+            </p>
+            <label for="Level">Level :</label>
+            <select name="Level" id="Level">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+            </select>
+            <button id="BtnIniciar" onclick="iniciarGame(),carregaImg()">Iniciar</button>
+        </div>
+        
+        <div class="LadoInicio"></div>
+
+    </div>
     <div class="Envelope" id="ENVELOPE">
         <div class="Esquerda">
             <img id="Torneira" src="img/faucet-2515657_640.png" alt="" ondragover="allowDrop(event)" draggable="false">
@@ -42,7 +69,7 @@
             <h1 id="AAA"></h1>
         </div>
         <div>
-            <button class="Btn" onclick="location.reload()">Volte ao jogo</button>
+            <button class="Btn" onclick="location.reload()">Volte ao inicio</button>
         </div>
         
     </div>
@@ -54,6 +81,8 @@
     <script src="../models/ClassRalo.js"></script>
     <script src="../models/ClassTorneira.js"></script>
     <script src="../controllers/controllerDragAndDrog.js"></script>
+    <script src="../controllers/controllerStart.js"></script>
+    <script src="../models/ClassJogo.js"></script>
 </body>
 
 </html>
