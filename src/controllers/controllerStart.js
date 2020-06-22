@@ -42,7 +42,7 @@ function iniciarGame(){
 
     document.getElementById("ENVELOPE").style.display = 'flex';
     document.getElementById("Inicio").style.display = 'none';
-    document.getElementById("Titulo").innerHTML = `PARA VENCER O LEVEL ${level.value} VOCÊ PRECISA TER ${desejo} LITROS DE ÁGUA EM UM DOS JARRO`;
+    document.getElementById("Titulo").innerHTML = `PARA VENCER O LEVEL ${level.value} VOCÊ PRECISA TER ${desejo} LITROS DE ÁGUA EM UM DOS JARROS`;
     
     
 }
