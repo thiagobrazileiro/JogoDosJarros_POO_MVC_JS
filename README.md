@@ -9,7 +9,7 @@ Jogo dos jarros feito em javascript, usando programação orientada a objetos e 
 
 **Objetivo**
 
-Fazer um jogo em live na plataforma da [twitchTv](https://www.twitch.tv/lampibrazil).
+Fazer um jogo em live na plataforma da [twitchTv](https://www.twitch.tv/thiagobrazileiro).
 
 **Justificativa**
 
